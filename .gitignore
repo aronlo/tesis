@@ -1,3 +1,5 @@
 .ipynb_checkpoints
 
 output_numpy/
+
+*.xlsx
