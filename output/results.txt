@@ -1,0 +1,84 @@
+-------------------------------------
+Distancia Random Forest
+Accuracy 0.9561511139812722
+Recall 0.9619631901840491
+F1 0.24806201550387594
+              precision    recall  f1-score   support
+
+     genuine       0.14      0.96      0.25       815
+    impostor       1.00      0.96      0.98    107580
+
+    accuracy                           0.96    108395
+   macro avg       0.57      0.96      0.61    108395
+weighted avg       0.99      0.96      0.97    108395
+
+[[   784     31]
+ [  4722 102858]]
+
+-------------------------------------
+Distancia SVM
+Accuracy 0.9185663545366484
+Recall 0.9276073619631902
+F1 0.14624238320920785
+              precision    recall  f1-score   support
+
+     genuine       0.08      0.93      0.15       815
+    impostor       1.00      0.92      0.96    107580
+
+    accuracy                           0.92    108395
+   macro avg       0.54      0.92      0.55    108395
+weighted avg       0.99      0.92      0.95    108395
+
+[[  756    59]
+ [ 8768 98812]]
+
+-------------------------------------
+Distancia Manhattan
+Accuracy 0.7864938419668804
+Recall 0.8
+F1 0.0533398781036528
+              precision    recall  f1-score   support
+
+     genuine       0.03      0.80      0.05       815
+    impostor       1.00      0.79      0.88    107580
+
+    accuracy                           0.79    108395
+   macro avg       0.51      0.79      0.47    108395
+weighted avg       0.99      0.79      0.87    108395
+
+[[  652   163]
+ [22980 84600]]
+
+-------------------------------------
+Distancia Coseno
+Accuracy 0.7887264172701692
+Recall 0.7619631901840491
+F1 0.051443482582943297
+              precision    recall  f1-score   support
+
+     genuine       0.03      0.76      0.05       815
+    impostor       1.00      0.79      0.88    107580
+
+    accuracy                           0.79    108395
+   macro avg       0.51      0.78      0.47    108395
+weighted avg       0.99      0.79      0.87    108395
+
+[[  621   194]
+ [22707 84873]]
+
+-------------------------------------
+Distancia Euclidiana
+Accuracy 0.7456247981917985
+Recall 0.7398773006134969
+F1 0.04190555613468154
+              precision    recall  f1-score   support
+
+     genuine       0.02      0.74      0.04       815
+    impostor       1.00      0.75      0.85    107580
+
+    accuracy                           0.75    108395
+   macro avg       0.51      0.74      0.45    108395
+weighted avg       0.99      0.75      0.85    108395
+
+[[  603   212]
+ [27361 80219]]
