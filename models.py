@@ -63,10 +63,10 @@ def EuclideanModel(train_users, dev_users, test_users):
     users_evaluation_dev = pd.DataFrame(users_evaluation_dev)
     
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como genuinos por los modelos
-    genuine_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "genuine", "score"])
+    genuine_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "genuine", "std_score"])
     
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como impostores por los modelos
-    impostor_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "impostor", "score"])
+    impostor_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "impostor", "std_score"])
     
     #Calculo del ERR y del umbral de decisión global
     err_dev, thresh_dev = evaluate_EER_Thresh_Distance(genuine_scores_dev, impostor_scores_dev)
@@ -112,7 +112,7 @@ def EuclideanModel(train_users, dev_users, test_users):
     users_evaluation_test = pd.DataFrame(users_evaluation_test)
     
     # OJO, aca se esta usando el score como umbral, si usaramos el score estandarizado, deberiamos de cambiar el sentido de la comparación
-    users_evaluation_test['y_pred'] = np.where(users_evaluation_test['score'] <= thresh_dev, 'genuine', 'impostor')
+    users_evaluation_test['y_pred'] = np.where(users_evaluation_test['std_score'] >= thresh_dev, 'genuine', 'impostor')
     
     #Obtenemos los y_test y y_pred de nuestros resultados
     y_test_test = users_evaluation_test.loc[:, "y_test"]
@@ -121,14 +121,14 @@ def EuclideanModel(train_users, dev_users, test_users):
     #-----------------------------------------------------------------------------------
         
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como genuinos por los modelos
-    genuine_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "genuine", "score"])
+    genuine_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "genuine", "std_score"])
     
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como impostores por los modelos
-    impostor_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "impostor", "score"])
+    impostor_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "impostor", "std_score"])
     
     thresh_x, thresh_y, _ = find_fpr_and_tpr_given_a_threshold_Distance(genuine_scores_test, impostor_scores_test, thresh_dev)
     
-    thresh_std = round(euclideanStandardization(thresh_dev), 3)    
+    thresh_std = round(thresh_dev.tolist(), 3) 
     
     return y_test_test, y_pred_test ,genuine_scores_test, impostor_scores_test, thresh_std, thresh_x, thresh_y
 
@@ -181,10 +181,10 @@ def ManhattanModel(train_users, dev_users, test_users):
     users_evaluation_dev = pd.DataFrame(users_evaluation_dev)
     
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como genuinos por los modelos
-    genuine_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "genuine", "score"])
+    genuine_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "genuine", "std_score"])
     
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como impostores por los modelos
-    impostor_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "impostor", "score"])
+    impostor_scores_dev = list(users_evaluation_dev.loc[users_evaluation_dev.y_test == "impostor", "std_score"])
     
     #Calculo del ERR y del umbral de decisión global
     err_dev, thresh_dev = evaluate_EER_Thresh_Distance(genuine_scores_dev, impostor_scores_dev)
@@ -230,7 +230,7 @@ def ManhattanModel(train_users, dev_users, test_users):
     users_evaluation_test = pd.DataFrame(users_evaluation_test)
     
     # OJO, aca se esta usando el score como umbral, si usaramos el score estandarizado, deberiamos de cambiar el sentido de la comparación
-    users_evaluation_test['y_pred'] = np.where(users_evaluation_test['score'] <= thresh_dev, 'genuine', 'impostor')
+    users_evaluation_test['y_pred'] = np.where(users_evaluation_test['std_score'] >= thresh_dev, 'genuine', 'impostor')
     
     #Obtenemos los y_test y y_pred de nuestros resultados
     y_test_test = users_evaluation_test.loc[:, "y_test"]
@@ -239,14 +239,14 @@ def ManhattanModel(train_users, dev_users, test_users):
     #-----------------------------------------------------------------------------------
         
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como genuinos por los modelos
-    genuine_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "genuine", "score"])
+    genuine_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "genuine", "std_score"])
     
     #Obtenemos la listas de scores de los registros que deberian de catalogarse como impostores por los modelos
-    impostor_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "impostor", "score"])
+    impostor_scores_test = list(users_evaluation_test.loc[users_evaluation_test.y_test == "impostor", "std_score"])
     
     thresh_x, thresh_y, _ = find_fpr_and_tpr_given_a_threshold_Distance(genuine_scores_test, impostor_scores_test, thresh_dev)
     
-    thresh_std = round(manhattanStandardization(thresh_dev), 3)    
+    thresh_std = round(thresh_dev.tolist(), 3) 
     
 
     return y_test_test, y_pred_test ,genuine_scores_test, impostor_scores_test, thresh_std, thresh_x, thresh_y
