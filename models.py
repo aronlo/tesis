@@ -130,7 +130,6 @@ def EuclideanModel(train_users, dev_users, test_users):
     
     thresh_std = round(euclideanStandardization(thresh_dev), 3)    
     
-
     return y_test_test, y_pred_test ,genuine_scores_test, impostor_scores_test, thresh_std, thresh_x, thresh_y
 
 def ManhattanModel(train_users, dev_users, test_users):
@@ -247,7 +246,7 @@ def ManhattanModel(train_users, dev_users, test_users):
     
     thresh_x, thresh_y, _ = find_fpr_and_tpr_given_a_threshold_Distance(genuine_scores_test, impostor_scores_test, thresh_dev)
     
-    thresh_std = round(euclideanStandardization(thresh_dev), 3)    
+    thresh_std = round(manhattanStandardization(thresh_dev), 3)    
     
 
     return y_test_test, y_pred_test ,genuine_scores_test, impostor_scores_test, thresh_std, thresh_x, thresh_y
