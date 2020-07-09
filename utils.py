@@ -15,6 +15,10 @@ from scipy.optimize import brentq
 from scipy.interpolate import interp1d
 
 
+#Metodo para convertir ticks a segundos
+def ticks_to_seconds(ticks):
+    return ticks / 10000000 #10'000'000
+
 def readDatabase(path):
     conn = sqlite3.connect(path)
     df = pd.read_sql_query('select * from keystroke_datas', conn, parse_dates=['date'])
@@ -41,6 +45,11 @@ def readDatabase(path):
             tempData.append(user_id  + list(map(int, vector)))
     
     df = pd.DataFrame(tempData, columns = columns)
+    
+    features = df.columns[1:61]
+    for i in range(len(features)):
+        col = features[i]
+        df[col] = df[col].apply(lambda x: ticks_to_seconds(x))
     
     tempData.clear()
     
@@ -83,15 +92,13 @@ def cosDistance(a,b):
     return distance.cosine(a.values, b.values)
 
 def euclideanStandardization(score, coef = 1):
-    coef = 1 / 37767187.5 #Valor de alfa
-    return 1 /( (score) *  coef + 1 )
+    return 1 / (1 + np.e**(5.05417683 * score - 5 ))
     
 def manhattanStandardization(score, coef = 1):
-    coef = 1 / 179191692.5 #Valor de alfa
-    return 1 /( (score) *  coef + 1 )
+    return 1 / (1 + np.e**(0.8222310164 * score - 5 ))
     
 def cosineStandardization(score):
-    return 1 - score
+    return 1 / (1 + np.e**(58.21800572 * score - 5 ))
 
 def find_nearest(array, value):
     array = np.asarray(array)
