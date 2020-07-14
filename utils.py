@@ -92,10 +92,10 @@ def cosDistance(a,b):
     return distance.cosine(a.values, b.values)
 
 def euclideanStandardization(score, coef = 1):
-    return 1 / (1 + np.e**(5.05417683 * score - 5 ))
+    return 1 - ( 1 / (1 + np.e**(-10 * (score - 0.6614))))
     
 def manhattanStandardization(score, coef = 1):
-    return 1 / (1 + np.e**(0.8222310164 * score - 5 ))
+    return 1 - ( 1 / (1 + np.e**(-1.75 * (score - 3.6425))))
     
 def cosineStandardization(score):
     return 1 / (1 + np.e**(58.21800572 * score - 5 ))
@@ -106,15 +106,15 @@ def find_nearest(array, value):
     return idx, array[idx]
 
 def evaluate_EER_Thresh_Distance(genuine_scores, impostor_scores):
-    #Se etiquetan los usuarios legítimos con 0 e impostores con 1
-    labels = [0]*len(genuine_scores) + [1]*len(impostor_scores)
+    #Se etiquetan los usuarios legítimos con 1 e impostores con 0
+    labels = [1]*len(genuine_scores) + [0]*len(impostor_scores)
     
     #Se utiliza el metodo de roc_curve para hallar los fpr, tpr y umbrales
-    fpr, tpr, thresholds = roc_curve(labels, genuine_scores + impostor_scores)
+    fpr, tpr, thresholds = roc_curve(labels, genuine_scores + impostor_scores, pos_label = 1)
     
     #Se calcula el EER cuando el punto del fpr y del fpr se encuentran
     eer = brentq(lambda x: 1. - x - interp1d(fpr, tpr)(x), 0., 1.)
-
+    
     thresh = interp1d(fpr, thresholds)(eer)
     return eer, thresh
     
@@ -133,10 +133,11 @@ def evaluate_EER_Thresh_Prob(genuine_scores, impostor_scores):
     return eer, thresh
 
 def find_fpr_and_tpr_given_a_threshold_Distance(genuine_scores, impostor_scores, threshold):
-    labels = [0] * len(genuine_scores) + [1] * len(impostor_scores)
-    fprs, tprs, thresholds = roc_curve(labels, genuine_scores + impostor_scores)
+    labels = [1] * len(genuine_scores) + [0] * len(impostor_scores)
+    fprs, tprs, thresholds = roc_curve(labels, genuine_scores + impostor_scores, pos_label = 1)
     idx, value = find_nearest(thresholds, threshold)
     return fprs[idx], tprs[idx], value
+
 
 def find_fpr_and_tpr_given_a_threshold_Prob(genuine_scores, impostor_scores, threshold):
     labels = [1] * len(genuine_scores) + [0] * len(impostor_scores)
@@ -145,8 +146,8 @@ def find_fpr_and_tpr_given_a_threshold_Prob(genuine_scores, impostor_scores, thr
     return fprs[idx], tprs[idx], value
 
 def evaluate_AUC_Distance(genuine_scores, impostor_scores):
-    #Se etiquetan los usuarios legítimos con 0 e impostores con 1
-    labels = [0] * len(genuine_scores) + [1] * len(impostor_scores)
+    #Se etiquetan los usuarios legítimos con 1 e impostores con 0
+    labels = [1] * len(genuine_scores) + [0] * len(impostor_scores)
     auc_score = roc_auc_score(labels, genuine_scores + impostor_scores)
     return auc_score
 
