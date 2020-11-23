@@ -1,0 +1,1387 @@
+[{
+  "_id": {
+    "$oid": "5f7a813cf57c030004ce8850"
+  },
+  "name": "Alex",
+  "lastname": "Pan Li",
+  "age": 19,
+  "email": "alexpanli5@gmail.com",
+  "username": "Alexito Pro",
+  "dni": 74875450,
+  "password": "alexitopr",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "left",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-05T02:13:16.284Z"
+  },
+  "ipAddress": "99.240.225.78",
+  "userAgent": "Firefox_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f77a58af1051200041f528b"
+  },
+  "name": "Marcelo",
+  "lastname": "Inocente",
+  "age": 21,
+  "email": "marceloinocentecornejo@gmail.com",
+  "username": "Mjic99",
+  "dni": 72639697,
+  "password": "marceloestuvoaqui",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T22:11:22.029Z"
+  },
+  "ipAddress": "190.239.122.98",
+  "userAgent": "Chrome_Linux 64",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7be1ec908cb60004943ced"
+  },
+  "name": "Andres",
+  "lastname": "Liu",
+  "age": 23,
+  "email": "andres.liu22@gmail.com",
+  "username": "andresliu22",
+  "dni": 78204180,
+  "password": "andresliu22",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "left",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-06T03:18:04.040Z"
+  },
+  "ipAddress": "190.42.251.244",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f778fa22038260004aa67e2"
+  },
+  "name": "KEVIN",
+  "lastname": "LUO",
+  "age": 19,
+  "email": "luoyujun0205@gmail.com",
+  "username": "KEVIN1234",
+  "dni": 700099,
+  "password": "KEVIN1234",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T20:37:54.518Z"
+  },
+  "ipAddress": "200.121.132.111",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f77ad3df1051200041f55c7"
+  },
+  "name": "Bruno",
+  "lastname": "Cardenas",
+  "age": 21,
+  "email": "brunocardenasmartinez@gmail.com",
+  "username": "CBruno98",
+  "dni": 70492015,
+  "password": "bruno1198",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T22:44:13.015Z"
+  },
+  "ipAddress": "200.121.174.46",
+  "userAgent": "Firefox_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f78bfaa46ad0a0004fb32d6"
+  },
+  "name": "Leonardo",
+  "lastname": "Luna",
+  "age": 21,
+  "email": "20163263@aloe.ulima.edu.pe",
+  "username": "LeoLuna98",
+  "dni": 73678254,
+  "password": "leotupapi",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "both",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-03T18:15:06.985Z"
+  },
+  "ipAddress": "181.66.244.184",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f793dc7beeb150004deab7c"
+  },
+  "name": "Cindy",
+  "lastname": "Cao Cao",
+  "age": 21,
+  "email": "cindycao1999@hotmail.com",
+  "username": "PanConQueso",
+  "dni": 74762309,
+  "password": "123456789",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:13:11.546Z"
+  },
+  "ipAddress": "65.93.136.126",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f793de9beeb150004deac04"
+  },
+  "name": "KATHERINA YULIANA",
+  "lastname": "LAU LEI ",
+  "age": 22,
+  "email": "kattyuly.lau@hotmail.com",
+  "username": "pichulaman",
+  "dni": 75623931,
+  "password": "katty1234",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:13:45.782Z"
+  },
+  "ipAddress": "190.237.37.108",
+  "userAgent": "Chrome_Windows 8.1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7791082038260004aa67e3"
+  },
+  "name": "Tommy",
+  "lastname": "Lo",
+  "age": 16,
+  "email": "tommylol1106@gmail.com",
+  "username": "Tommy122",
+  "dni": 75623924,
+  "password": "943942122",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T20:43:52.913Z"
+  },
+  "ipAddress": "181.67.35.251",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f793e96beeb150004deb0ed"
+  },
+  "name": "Karen",
+  "lastname": "Rivera",
+  "age": 21,
+  "email": "karenxinita@hotmail.com",
+  "username": "Carenline",
+  "dni": 70394737,
+  "password": "12345q",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:16:38.847Z"
+  },
+  "ipAddress": "190.239.150.72",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f77ad25f1051200041f55c6"
+  },
+  "name": "Andrea ",
+  "lastname": "Castro",
+  "age": 21,
+  "email": "20160315@aloe.ulima.edu.pe",
+  "username": "acastroc",
+  "dni": 71722573,
+  "password": "ballenas005",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T22:43:49.812Z"
+  },
+  "ipAddress": "190.42.19.246",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7b4cb1b41039000475a738"
+  },
+  "name": "Renato",
+  "lastname": "Alvarez",
+  "age": 21,
+  "email": "20163002@aloe.ulima.edu.pe",
+  "username": "tato99",
+  "dni": 74610688,
+  "password": "renato",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-05T16:41:21.492Z"
+  },
+  "ipAddress": "179.7.192.70",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7b8d167a63fa000433423a"
+  },
+  "name": "María",
+  "lastname": "Macedo Villegas",
+  "age": 21,
+  "email": "maria.emma.15.mm@gmail.com",
+  "username": "MaritaMcV",
+  "dni": 72683257,
+  "password": "Colores-7",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-05T21:16:06.169Z"
+  },
+  "ipAddress": "201.240.242.195",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c8379859bc10004908e42"
+  },
+  "name": "Nicolas",
+  "lastname": "Combe Gutierrez",
+  "age": 22,
+  "email": "20160382@aloe.ulima.edu.pe",
+  "username": "NicolasElPapu",
+  "dni": 73379327,
+  "password": "123456abc",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-06T14:47:21.199Z"
+  },
+  "ipAddress": "190.234.92.146",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7c8797859bc10004908f6c"
+  },
+  "name": "Ricardo",
+  "lastname": "Rodriguez",
+  "age": 21,
+  "email": "ricardomartin259@gmail.com",
+  "username": "ricardomartin",
+  "dni": 70937244,
+  "password": "admin1234",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-06T15:04:55.376Z"
+  },
+  "ipAddress": "179.7.136.146",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7ba68993171a000438bb13"
+  },
+  "name": "Jorge",
+  "lastname": "Wu",
+  "age": 21,
+  "email": "xj.wux99@gmail.com",
+  "username": "jorgewu",
+  "dni": 72878381,
+  "password": "jorgewu123",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-05T23:04:41.535Z"
+  },
+  "ipAddress": "190.236.202.174",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7b83ab7a63fa0004333ef5"
+  },
+  "name": "Claudia",
+  "lastname": "Long",
+  "age": 21,
+  "email": "clau_long_99@hotmail.com",
+  "username": "claulong",
+  "dni": 72785688,
+  "password": "clauclau99",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-05T20:35:55.255Z"
+  },
+  "ipAddress": "132.157.66.104",
+  "userAgent": "Chrome_Windows 7",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f76d9e492fecb0004a0f543"
+  },
+  "name": "Aron",
+  "lastname": "Lo",
+  "age": 22,
+  "email": "aron.lo.li@hotmail.com",
+  "username": "aronlo98",
+  "dni": 75623926,
+  "password": "sistemas ulima",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T07:42:28.804Z"
+  },
+  "ipAddress": "181.67.35.251",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f793da3beeb150004deab50"
+  },
+  "name": "Victor",
+  "lastname": "Loo Deng",
+  "age": 22,
+  "email": "loo.a.victor@gmail.com",
+  "username": "victorld1998",
+  "dni": 0,
+  "password": "123456789",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:12:35.990Z"
+  },
+  "ipAddress": "137.238.206.232",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f77ad46f1051200041f55c8"
+  },
+  "name": "Luis Giancarlo",
+  "lastname": "Sanchez Huaman",
+  "age": 21,
+  "email": "giancarlosh17@gmail.com",
+  "username": "LGiancarlo",
+  "dni": 72704871,
+  "password": "G14nc4rl0",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "left",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T22:44:22.134Z"
+  },
+  "ipAddress": "181.67.5.94",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f793ce9beeb150004deaac1"
+  },
+  "name": "Alex",
+  "lastname": "Woong",
+  "age": 21,
+  "email": "awch98@gmail.com",
+  "username": "alexwoong471",
+  "dni": 73090783,
+  "password": "Lich.1998",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "both",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:09:29.377Z"
+  },
+  "ipAddress": "179.6.203.52",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f79416cbeeb150004debcd6"
+  },
+  "name": "Cindy",
+  "lastname": "Lau",
+  "age": 14,
+  "email": "laucindy615@gmail.com",
+  "username": "Cindy Lau",
+  "dni": 0,
+  "password": "cindylau2",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:28:44.094Z"
+  },
+  "ipAddress": "190.237.37.108",
+  "userAgent": "Chrome_macOS High Sierra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7a7d0ef57c030004ce84e4"
+  },
+  "name": "Luis Miguel",
+  "lastname": "Lofuk Jo",
+  "age": 29,
+  "email": "miguel.lofuk.10@gmail.com",
+  "username": "mlofuk",
+  "dni": 47124388,
+  "password": "luis06891",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-05T01:55:26.238Z"
+  },
+  "ipAddress": "190.237.35.21",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7cbe979a0c13000426c79e"
+  },
+  "name": "Eloy",
+  "lastname": "Cueva",
+  "age": 23,
+  "email": "ecuevasantiago@gmail.com",
+  "username": "eloycs",
+  "dni": 75368054,
+  "password": "980981953",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-06T18:59:35.177Z"
+  },
+  "ipAddress": "190.234.182.38",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f794394beeb150004debf5a"
+  },
+  "name": "Felix",
+  "lastname": "Cao",
+  "age": 22,
+  "email": "felix-jz@hotmail.com",
+  "username": "FelixC",
+  "dni": 16680079,
+  "password": "123456789",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T03:37:56.887Z"
+  },
+  "ipAddress": "99.231.224.229",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f778b8a2038260004aa67e1"
+  },
+  "name": "Aylin",
+  "lastname": "Lo",
+  "age": 19,
+  "email": "loliaylin@hotmail.com",
+  "username": "loliaylin",
+  "dni": 75623925,
+  "password": "loliaylin",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-02T20:20:26.143Z"
+  },
+  "ipAddress": "181.67.35.251",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f793157beeb150004dea6e1"
+  },
+  "name": "Jimena",
+  "lastname": "Su ",
+  "age": 22,
+  "email": "jimenasu128@hotmail.com",
+  "username": "Jimena98",
+  "dni": 75604426,
+  "password": "jimena98",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-04T02:20:07.649Z"
+  },
+  "ipAddress": "190.237.13.158",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7d39e67628f70004814e3e"
+  },
+  "name": "Roberto",
+  "lastname": "Cruz",
+  "age": 20,
+  "email": "pabloc-jh@hotmail.com",
+  "username": "Robert4",
+  "dni": 75623905,
+  "password": "alexgei",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-07T03:45:42.431Z"
+  },
+  "ipAddress": "99.231.224.229",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7e56dd748a9400048b1697"
+  },
+  "name": "fanny",
+  "lastname": "kuan",
+  "age": 21,
+  "email": "fannykg1999@gmail.com",
+  "username": "fannykuan",
+  "dni": 72634220,
+  "password": "u20171714",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T00:01:33.140Z"
+  },
+  "ipAddress": "179.6.213.146",
+  "userAgent": "Chrome_macOS High Sierra",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7e6001748a9400048b1ac5"
+  },
+  "name": "Fabrizio",
+  "lastname": "Montemayor",
+  "age": 20,
+  "email": "20170994@aloe.ulima.edu.pe",
+  "username": "fabriziomonte12",
+  "dni": 77688092,
+  "password": "fabcon123",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T00:40:33.272Z"
+  },
+  "ipAddress": "181.66.23.6",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7e8a37a8ebab000498c2ed"
+  },
+  "name": "Omar",
+  "lastname": "Uribe",
+  "age": 20,
+  "email": "omaruribe9@gmail.com",
+  "username": "omar_123",
+  "dni": 72933894,
+  "password": "omar12345",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "left",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T03:40:39.959Z"
+  },
+  "ipAddress": "179.6.203.171",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7e8cbca8ebab000498cc6b"
+  },
+  "name": "Monica",
+  "lastname": "Lofuk ",
+  "age": 27,
+  "email": "monica.lofuk@gmail.com",
+  "username": "monilof1993",
+  "dni": 47856706,
+  "password": "moni17059",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T03:51:24.989Z"
+  },
+  "ipAddress": "190.117.158.101",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7f72599bd94d00048e68fc"
+  },
+  "name": "Nathan",
+  "lastname": "Espinoza",
+  "age": 21,
+  "email": "20160520@aloe.ulima.edu.pe",
+  "username": "NathanEY99",
+  "dni": 71893960,
+  "password": "Skyline97",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T20:11:05.274Z"
+  },
+  "ipAddress": "190.232.180.19",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7f88895cea9600043a0de7"
+  },
+  "name": "Johana",
+  "lastname": "Reátegui",
+  "age": 21,
+  "email": "johana.reategui.m@upch.pe",
+  "username": "JohanaReMi",
+  "dni": 73674317,
+  "password": "benito,moisesyrex",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T21:45:45.562Z"
+  },
+  "ipAddress": "190.234.57.217",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7fa3016b0e9d00047b042f"
+  },
+  "name": "Yohan ",
+  "lastname": "Yi",
+  "age": 22,
+  "email": "f.yc1998@hotmail.com",
+  "username": "Fortrex",
+  "dni": 75604427,
+  "password": "Yo,.13579",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T23:38:41.965Z"
+  },
+  "ipAddress": "181.67.74.113",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f7fa3386b0e9d00047b0430"
+  },
+  "name": "ANDRES",
+  "lastname": "SAMANIEGO",
+  "age": 21,
+  "email": "samaniego71909@gmail.com",
+  "username": "sie777e",
+  "dni": 70767699,
+  "password": "avio19099",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-08T23:39:36.532Z"
+  },
+  "ipAddress": "181.67.168.136",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f80ba6a5a8dc600045bc775"
+  },
+  "name": "Enrique",
+  "lastname": "He ",
+  "age": 22,
+  "email": "enrique_he22@hotmail.com",
+  "username": "Keqing",
+  "dni": 75689439,
+  "password": "A1234bcde",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-09T19:30:50.580Z"
+  },
+  "ipAddress": "190.236.122.207",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f80ce537a2e4c0004448fd7"
+  },
+  "name": "Jhon",
+  "lastname": "Fernandez Galarza",
+  "age": 29,
+  "email": "jefernandezgalarza@gmail.com",
+  "username": "JhonFG",
+  "dni": 46840541,
+  "password": "Mozart123",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-09T20:55:47.279Z"
+  },
+  "ipAddress": "191.98.138.134",
+  "userAgent": "Chrome_OS X",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f812c49d41199000454296f"
+  },
+  "name": "Jimena ",
+  "lastname": "Palacios Paredes",
+  "age": 21,
+  "email": "jimena.2323@hotmail.com",
+  "username": "JimenaP",
+  "dni": 70809237,
+  "password": "987654321",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-10T03:36:41.138Z"
+  },
+  "ipAddress": "190.233.181.123",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f81f9250999a100043aace1"
+  },
+  "name": "Wan",
+  "lastname": "Long",
+  "age": 22,
+  "email": "20162205@aloe.ulima.edu.pe",
+  "username": "WanLong01",
+  "dni": 75689447,
+  "password": "Holis1",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-10T18:10:45.120Z"
+  },
+  "ipAddress": "179.6.207.106",
+  "userAgent": "Chrome_OS X",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f83bbfdd1c7b50004a92e86"
+  },
+  "name": "Jieyi",
+  "lastname": "Cao",
+  "age": 22,
+  "email": "jycao18@outlook.com",
+  "username": "jjwlin",
+  "dni": 422781,
+  "password": "27.03.81j",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-12T02:14:21.627Z"
+  },
+  "ipAddress": "190.233.137.32",
+  "userAgent": "Safari_OS X",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f84c767ee3df80004f24dda"
+  },
+  "name": "ANNGIE",
+  "lastname": "ROJAS TAMANI",
+  "age": 22,
+  "email": "anngie.rojas17@gmail.com",
+  "username": "AnngieR17",
+  "dni": 72659576,
+  "password": "arcadia17",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-12T21:15:19.982Z"
+  },
+  "ipAddress": "200.121.230.100",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f84f9c6e9fcc500046145f0"
+  },
+  "name": "Caterina",
+  "lastname": "Villanueva",
+  "age": 21,
+  "email": "caterinavillanueva2406@gmail.com",
+  "username": "caterina villanueva",
+  "dni": 72869790,
+  "password": "BP2406199",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "both",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-13T00:50:14.903Z"
+  },
+  "ipAddress": "179.6.214.87",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f85271be51163000449c0e6"
+  },
+  "name": "Valeria",
+  "lastname": "Villena",
+  "age": 22,
+  "email": "valvillena@gmail.com",
+  "username": "ValeriaVillena",
+  "dni": 72933920,
+  "password": "Yorkies25",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-13T04:03:39.462Z"
+  },
+  "ipAddress": "179.6.217.177",
+  "userAgent": "Chrome_Windows 8.1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f862e2cdb919500043c02d9"
+  },
+  "name": "Luana",
+  "lastname": "Salazar",
+  "age": 19,
+  "email": "luanix.190@hotmail.com",
+  "username": "peipei0212",
+  "dni": 74051178,
+  "password": "peipei1119",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-13T22:46:04.341Z"
+  },
+  "ipAddress": "179.6.213.150",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f874e71881a270004ab43e9"
+  },
+  "name": "Leidy",
+  "lastname": "Palomino Ayvar ",
+  "age": 18,
+  "email": "leidysulla@hotmail.com",
+  "username": "Leidy2407",
+  "dni": 75683112,
+  "password": "lpalomino",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-14T19:16:01.393Z"
+  },
+  "ipAddress": "109.73.20.10",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f884c00490303000444efe5"
+  },
+  "name": "Alexandra",
+  "lastname": "Cáceres",
+  "age": 19,
+  "email": "alexanicolca1809@outlook.com",
+  "username": "alee1809",
+  "dni": 70579651,
+  "password": "112233445",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-15T13:17:52.844Z"
+  },
+  "ipAddress": "201.240.146.25",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f8a4d846a4ea100046ad9f8"
+  },
+  "name": "sergio",
+  "lastname": "huang",
+  "age": 20,
+  "email": "sergiohangye19@gmail.com",
+  "username": "sergio1920",
+  "dni": 74608801,
+  "password": "sergio192",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "left",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-17T01:48:52.901Z"
+  },
+  "ipAddress": "181.67.168.94",
+  "userAgent": "Safari_OS X",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f8b1d7f146ea70004046106"
+  },
+  "name": "Fernando",
+  "lastname": "Yep",
+  "age": 18,
+  "email": "yepfernando61@gmail.com",
+  "username": "Tornado61",
+  "dni": 72759047,
+  "password": "Cro61.com",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-17T16:36:15.585Z"
+  },
+  "ipAddress": "190.238.162.14",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5f9058fea84e260004333c12"
+  },
+  "name": "Sofia",
+  "lastname": "Huaracha",
+  "age": 23,
+  "email": "sofiamilagros1910@gmail.com",
+  "username": "sof1910",
+  "dni": 72968389,
+  "password": "solyluna1",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-10-21T15:51:26.063Z"
+  },
+  "ipAddress": "179.6.209.184",
+  "userAgent": "Chrome_Windows 8.1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa06c9299afb80004ca7121"
+  },
+  "name": "Ricardo",
+  "lastname": "Huang",
+  "age": 21,
+  "email": "ricardohsam@gmail.com",
+  "username": "Ricardo23ulima",
+  "dni": 73095241,
+  "password": "qwerty123",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "left",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-02T20:31:14.753Z"
+  },
+  "ipAddress": "179.6.194.151",
+  "userAgent": "Chrome_Windows 7",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa18463d5ee1c00044d973d"
+  },
+  "name": "Sebastian",
+  "lastname": "Philipps",
+  "age": 27,
+  "email": "sebastianphilipps93@gmail.com",
+  "username": "robotin123",
+  "dni": 72650332,
+  "password": "123456",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-03T16:25:07.202Z"
+  },
+  "ipAddress": "190.236.35.253",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa192a2d5ee1c00044d9adf"
+  },
+  "name": "caterina",
+  "lastname": "villanueva",
+  "age": 21,
+  "email": "caterinavillanueva2406@gmail.com",
+  "username": "catvil24",
+  "dni": 72869790,
+  "password": "caterina2",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "both",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-03T17:25:54.121Z"
+  },
+  "ipAddress": "179.6.220.124",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1a2402cced100042dce7c"
+  },
+  "name": "Jaime Andres",
+  "lastname": "Van Hemelrijck Maldonado",
+  "age": 20,
+  "email": "20181973@aloe.ulima.edu.pe",
+  "username": "NombreDeUsuarioJ",
+  "dni": 73374846,
+  "password": "NoSeQuexD",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-03T18:32:32.172Z"
+  },
+  "ipAddress": "179.6.219.221",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1e71161912d000400716f"
+  },
+  "name": "Luis",
+  "lastname": "Cepeda",
+  "age": 21,
+  "email": "20160331@aloe.ulima.edu.pe",
+  "username": "Luchito",
+  "dni": 74039088,
+  "password": "aronloli2",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-03T23:26:09.783Z"
+  },
+  "ipAddress": "190.237.162.93",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1eb4d61912d0004007486"
+  },
+  "name": "Ken",
+  "lastname": "Wakabayashi",
+  "age": 21,
+  "email": "20162653@aloe.ulima.edu.pe",
+  "username": "kenwaka",
+  "dni": 74595049,
+  "password": "parael20p",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-03T23:44:13.240Z"
+  },
+  "ipAddress": "190.40.199.124",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa1f05f61912d00040076ab"
+  },
+  "name": "Marlhene",
+  "lastname": "Montoya",
+  "age": 22,
+  "email": "marlhene.montoya@gmail.com",
+  "username": "Marlhene",
+  "dni": 72406193,
+  "password": "FYBHE2016",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "yes",
+  "date": {
+    "$date": "2020-11-04T00:05:51.727Z"
+  },
+  "ipAddress": "190.236.206.246",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa2220fa6b5c600048016a1"
+  },
+  "name": "Joseph",
+  "lastname": "Avalos",
+  "age": 25,
+  "email": "joseph.avalos0694@gmail.com",
+  "username": "joseph_0694",
+  "dni": 75516473,
+  "password": "joseph069",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-04T03:37:51.022Z"
+  },
+  "ipAddress": "181.66.169.254",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa324c65ef4260004c1a487"
+  },
+  "name": "Fabrizio",
+  "lastname": "Valdivia",
+  "age": 23,
+  "email": "fvaldivia444@gmail.com",
+  "username": "fvaldivia",
+  "dni": 70480252,
+  "password": "fabriziov",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-04T22:01:42.805Z"
+  },
+  "ipAddress": "190.238.55.65",
+  "userAgent": "Edge_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa494e6e11dde0004c2b8ec"
+  },
+  "name": "Miguel",
+  "lastname": "Millones",
+  "age": 19,
+  "email": "20181201@aloe.ulima.edu.pe",
+  "username": "Miguel_01",
+  "dni": 73689890,
+  "password": "ulimaSIStemas",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-06T00:12:22.938Z"
+  },
+  "ipAddress": "190.234.75.36",
+  "userAgent": "Chrome_Windows 8.1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa56f5d1f00eb0004f93749"
+  },
+  "name": "Angelo",
+  "lastname": "Medina",
+  "age": 18,
+  "email": "angelo_medinag@hotmail.com",
+  "username": "Angelo",
+  "dni": 72077952,
+  "password": "123456789",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-06T15:44:29.073Z"
+  },
+  "ipAddress": "190.233.166.200",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa5d68eb423430004716256"
+  },
+  "name": "Daniela",
+  "lastname": "Chan",
+  "age": 19,
+  "email": "danielachanhuang@hotmail.com",
+  "username": "DcAtlas57",
+  "dni": 76030299,
+  "password": "0ffice712",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-06T23:04:46.380Z"
+  },
+  "ipAddress": "190.235.10.150",
+  "userAgent": "Chrome_Windows 7",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa6fe1f10f2650004605b73"
+  },
+  "name": "José",
+  "lastname": "Ortega",
+  "age": 24,
+  "email": "ortegajose2418@icloud.com",
+  "username": "rakkumon",
+  "dni": 70269519,
+  "password": "re70evolution96",
+  "isImposedPassword": false,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-07T20:05:51.482Z"
+  },
+  "ipAddress": "190.42.230.134",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa881c4e749a90004c2ccc7"
+  },
+  "name": "Almendra",
+  "lastname": "Landa",
+  "age": 20,
+  "email": "a.landap@alum.up.edu.pe",
+  "username": "2020king",
+  "dni": 74408436,
+  "password": "almendraa",
+  "isImposedPassword": true,
+  "genre": "female",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-08T23:39:48.936Z"
+  },
+  "ipAddress": "209.45.91.104",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fa9d9dbdd5c300004ce6944"
+  },
+  "name": "Eduardo ",
+  "lastname": "Sotelo Ascona",
+  "age": 18,
+  "email": "Eduardo_5_33@hotmail.com",
+  "username": "Eduardo Sotelo",
+  "dni": 70850408,
+  "password": "OrigamiTo",
+  "isImposedPassword": true,
+  "genre": "male",
+  "handedness": "right",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-10T00:07:55.139Z"
+  },
+  "ipAddress": "179.6.33.177",
+  "userAgent": "Opera_Windows 10.0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fad31c9e5df1f00040c0155"
+  },
+  "name": "Jemima ",
+  "lastname": "Romero Grados",
+  "age": 23,
+  "email": "20163537@aloe.ulima.edu.pe",
+  "username": "jemima#180",
+  "dni": 72514796,
+  "password": "megustanloscolorespastel",
+  "isImposedPassword": false,
+  "genre": "female",
+  "handedness": "both",
+  "handDesease": "no",
+  "date": {
+    "$date": "2020-11-12T12:59:53.199Z"
+  },
+  "ipAddress": "190.238.29.50",
+  "userAgent": "Chrome_Windows 10.0",
+  "__v": 0
+}]

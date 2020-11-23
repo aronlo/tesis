@@ -1,0 +1,67 @@
+_id,name,lastname,age,email,username,dni,password,isImposedPassword,genre,handedness,handDesease,date,ipAddress,userAgent,__v
+5f7a813cf57c030004ce8850,Alex,Pan Li,19,alexpanli5@gmail.com,Alexito Pro,74875450,alexitopr,true,male,left,no,2020-10-05T02:13:16.284Z,99.240.225.78,Firefox_Windows 10.0,0
+5f77a58af1051200041f528b,Marcelo,Inocente,21,marceloinocentecornejo@gmail.com,Mjic99,72639697,marceloestuvoaqui,false,male,right,no,2020-10-02T22:11:22.029Z,190.239.122.98,Chrome_Linux 64,0
+5f7be1ec908cb60004943ced,Andres,Liu,23,andres.liu22@gmail.com,andresliu22,78204180,andresliu22,false,male,left,no,2020-10-06T03:18:04.040Z,190.42.251.244,Chrome_Windows 10.0,0
+5f778fa22038260004aa67e2,KEVIN,LUO,19,luoyujun0205@gmail.com,KEVIN1234,700099,KEVIN1234,true,male,right,no,2020-10-02T20:37:54.518Z,200.121.132.111,Chrome_Windows 10.0,0
+5f77ad3df1051200041f55c7,Bruno,Cardenas,21,brunocardenasmartinez@gmail.com,CBruno98,70492015,bruno1198,false,male,right,no,2020-10-02T22:44:13.015Z,200.121.174.46,Firefox_Windows 10.0,0
+5f78bfaa46ad0a0004fb32d6,Leonardo,Luna,21,20163263@aloe.ulima.edu.pe,LeoLuna98,73678254,leotupapi,true,male,both,no,2020-10-03T18:15:06.985Z,181.66.244.184,Edge_Windows 10.0,0
+5f793dc7beeb150004deab7c,Cindy,Cao Cao,21,cindycao1999@hotmail.com,PanConQueso,74762309,123456789,true,female,right,no,2020-10-04T03:13:11.546Z,65.93.136.126,Chrome_Windows 10.0,0
+5f793de9beeb150004deac04,KATHERINA YULIANA,LAU LEI ,22,kattyuly.lau@hotmail.com,pichulaman,75623931,katty1234,true,female,right,no,2020-10-04T03:13:45.782Z,190.237.37.108,Chrome_Windows 8.1,0
+5f7791082038260004aa67e3,Tommy,Lo,16,tommylol1106@gmail.com,Tommy122,75623924,943942122,true,male,right,no,2020-10-02T20:43:52.913Z,181.67.35.251,Chrome_Windows 10.0,0
+5f793e96beeb150004deb0ed,Karen,Rivera,21,karenxinita@hotmail.com,Carenline,70394737,12345q,false,female,right,no,2020-10-04T03:16:38.847Z,190.239.150.72,Chrome_Windows 10.0,0
+5f77ad25f1051200041f55c6,Andrea ,Castro,21,20160315@aloe.ulima.edu.pe,acastroc,71722573,ballenas005,false,female,right,no,2020-10-02T22:43:49.812Z,190.42.19.246,Chrome_Windows 10.0,0
+5f7b4cb1b41039000475a738,Renato,Alvarez,21,20163002@aloe.ulima.edu.pe,tato99,74610688,renato,false,male,right,no,2020-10-05T16:41:21.492Z,179.7.192.70,Edge_Windows 10.0,0
+5f7b8d167a63fa000433423a,María,Macedo Villegas,21,maria.emma.15.mm@gmail.com,MaritaMcV,72683257,Colores-7,true,female,right,no,2020-10-05T21:16:06.169Z,201.240.242.195,Chrome_Windows 10.0,0
+5f7c8379859bc10004908e42,Nicolas,Combe Gutierrez,22,20160382@aloe.ulima.edu.pe,NicolasElPapu,73379327,123456abc,true,male,right,no,2020-10-06T14:47:21.199Z,190.234.92.146,Chrome_Windows 10.0,0
+5f7c8797859bc10004908f6c,Ricardo,Rodriguez,21,ricardomartin259@gmail.com,ricardomartin,70937244,admin1234,true,male,right,no,2020-10-06T15:04:55.376Z,179.7.136.146,Chrome_Windows 10.0,0
+5f7ba68993171a000438bb13,Jorge,Wu,21,xj.wux99@gmail.com,jorgewu,72878381,jorgewu123,false,male,right,no,2020-10-05T23:04:41.535Z,190.236.202.174,Chrome_Windows 10.0,0
+5f7b83ab7a63fa0004333ef5,Claudia,Long,21,clau_long_99@hotmail.com,claulong,72785688,clauclau99,false,female,right,no,2020-10-05T20:35:55.255Z,132.157.66.104,Chrome_Windows 7,0
+5f76d9e492fecb0004a0f543,Aron,Lo,22,aron.lo.li@hotmail.com,aronlo98,75623926,sistemas ulima,false,male,right,no,2020-10-02T07:42:28.804Z,181.67.35.251,Chrome_Windows 10.0,0
+5f793da3beeb150004deab50,Victor,Loo Deng,22,loo.a.victor@gmail.com,victorld1998,0,123456789,true,male,right,no,2020-10-04T03:12:35.990Z,137.238.206.232,Chrome_Windows 10.0,0
+5f77ad46f1051200041f55c8,Luis Giancarlo,Sanchez Huaman,21,giancarlosh17@gmail.com,LGiancarlo,72704871,G14nc4rl0,false,male,left,no,2020-10-02T22:44:22.134Z,181.67.5.94,Chrome_Windows 10.0,0
+5f793ce9beeb150004deaac1,Alex,Woong,21,awch98@gmail.com,alexwoong471,73090783,Lich.1998,true,male,both,no,2020-10-04T03:09:29.377Z,179.6.203.52,Chrome_Windows 10.0,0
+5f79416cbeeb150004debcd6,Cindy,Lau,14,laucindy615@gmail.com,Cindy Lau,0,cindylau2,true,female,right,no,2020-10-04T03:28:44.094Z,190.237.37.108,Chrome_macOS High Sierra,0
+5f7a7d0ef57c030004ce84e4,Luis Miguel,Lofuk Jo,29,miguel.lofuk.10@gmail.com,mlofuk,47124388,luis06891,true,male,right,no,2020-10-05T01:55:26.238Z,190.237.35.21,Chrome_Windows 10.0,0
+5f7cbe979a0c13000426c79e,Eloy,Cueva,23,ecuevasantiago@gmail.com,eloycs,75368054,980981953,true,male,right,no,2020-10-06T18:59:35.177Z,190.234.182.38,Chrome_Windows 10.0,0
+5f794394beeb150004debf5a,Felix,Cao,22,felix-jz@hotmail.com,FelixC,16680079,123456789,true,male,right,no,2020-10-04T03:37:56.887Z,99.231.224.229,Chrome_Windows 10.0,0
+5f778b8a2038260004aa67e1,Aylin,Lo,19,loliaylin@hotmail.com,loliaylin,75623925,loliaylin,true,female,right,no,2020-10-02T20:20:26.143Z,181.67.35.251,Chrome_Windows 10.0,0
+5f793157beeb150004dea6e1,Jimena,Su ,22,jimenasu128@hotmail.com,Jimena98,75604426,jimena98,false,female,right,no,2020-10-04T02:20:07.649Z,190.237.13.158,Chrome_Windows 10.0,0
+5f7d39e67628f70004814e3e,Roberto,Cruz,20,pabloc-jh@hotmail.com,Robert4,75623905,alexgei,false,male,right,no,2020-10-07T03:45:42.431Z,99.231.224.229,Chrome_Windows 10.0,0
+5f7e56dd748a9400048b1697,fanny,kuan,21,fannykg1999@gmail.com,fannykuan,72634220,u20171714,true,female,right,no,2020-10-08T00:01:33.140Z,179.6.213.146,Chrome_macOS High Sierra,0
+5f7e6001748a9400048b1ac5,Fabrizio,Montemayor,20,20170994@aloe.ulima.edu.pe,fabriziomonte12,77688092,fabcon123,true,male,right,no,2020-10-08T00:40:33.272Z,181.66.23.6,Chrome_Windows 10.0,0
+5f7e8a37a8ebab000498c2ed,Omar,Uribe,20,omaruribe9@gmail.com,omar_123,72933894,omar12345,true,male,left,no,2020-10-08T03:40:39.959Z,179.6.203.171,Chrome_Windows 10.0,0
+5f7e8cbca8ebab000498cc6b,Monica,Lofuk ,27,monica.lofuk@gmail.com,monilof1993,47856706,moni17059,true,female,right,no,2020-10-08T03:51:24.989Z,190.117.158.101,Chrome_Windows 10.0,0
+5f7f72599bd94d00048e68fc,Nathan,Espinoza,21,20160520@aloe.ulima.edu.pe,NathanEY99,71893960,Skyline97,true,male,right,no,2020-10-08T20:11:05.274Z,190.232.180.19,Edge_Windows 10.0,0
+5f7f88895cea9600043a0de7,Johana,Reátegui,21,johana.reategui.m@upch.pe,JohanaReMi,73674317,"benito,moisesyrex",false,female,right,no,2020-10-08T21:45:45.562Z,190.234.57.217,Chrome_Windows 10.0,0
+5f7fa3016b0e9d00047b042f,Yohan ,Yi,22,f.yc1998@hotmail.com,Fortrex,75604427,"Yo,.13579",true,male,right,no,2020-10-08T23:38:41.965Z,181.67.74.113,Edge_Windows 10.0,0
+5f7fa3386b0e9d00047b0430,ANDRES,SAMANIEGO,21,samaniego71909@gmail.com,sie777e,70767699,avio19099,true,male,right,no,2020-10-08T23:39:36.532Z,181.67.168.136,Chrome_Windows 10.0,0
+5f80ba6a5a8dc600045bc775,Enrique,He ,22,enrique_he22@hotmail.com,Keqing,75689439,A1234bcde,true,male,right,no,2020-10-09T19:30:50.580Z,190.236.122.207,Chrome_Windows 10.0,0
+5f80ce537a2e4c0004448fd7,Jhon,Fernandez Galarza,29,jefernandezgalarza@gmail.com,JhonFG,46840541,Mozart123,true,male,right,no,2020-10-09T20:55:47.279Z,191.98.138.134,Chrome_OS X,0
+5f812c49d41199000454296f,Jimena ,Palacios Paredes,21,jimena.2323@hotmail.com,JimenaP,70809237,987654321,true,female,right,no,2020-10-10T03:36:41.138Z,190.233.181.123,Chrome_Windows 10.0,0
+5f81f9250999a100043aace1,Wan,Long,22,20162205@aloe.ulima.edu.pe,WanLong01,75689447,Holis1,false,female,right,no,2020-10-10T18:10:45.120Z,179.6.207.106,Chrome_OS X,0
+5f83bbfdd1c7b50004a92e86,Jieyi,Cao,22,jycao18@outlook.com,jjwlin,422781,27.03.81j,true,female,right,no,2020-10-12T02:14:21.627Z,190.233.137.32,Safari_OS X,0
+5f84c767ee3df80004f24dda,ANNGIE,ROJAS TAMANI,22,anngie.rojas17@gmail.com,AnngieR17,72659576,arcadia17,true,female,right,no,2020-10-12T21:15:19.982Z,200.121.230.100,Chrome_Windows 10.0,0
+5f84f9c6e9fcc500046145f0,Caterina,Villanueva,21,caterinavillanueva2406@gmail.com,caterina villanueva,72869790,BP2406199,true,female,both,no,2020-10-13T00:50:14.903Z,179.6.214.87,Chrome_Windows 10.0,0
+5f85271be51163000449c0e6,Valeria,Villena,22,valvillena@gmail.com,ValeriaVillena,72933920,Yorkies25,true,female,right,no,2020-10-13T04:03:39.462Z,179.6.217.177,Chrome_Windows 8.1,0
+5f862e2cdb919500043c02d9,Luana,Salazar,19,luanix.190@hotmail.com,peipei0212,74051178,peipei1119,false,female,right,no,2020-10-13T22:46:04.341Z,179.6.213.150,Edge_Windows 10.0,0
+5f874e71881a270004ab43e9,Leidy,Palomino Ayvar ,18,leidysulla@hotmail.com,Leidy2407,75683112,lpalomino,true,female,right,no,2020-10-14T19:16:01.393Z,109.73.20.10,Chrome_Windows 10.0,0
+5f884c00490303000444efe5,Alexandra,Cáceres,19,alexanicolca1809@outlook.com,alee1809,70579651,112233445,true,female,right,no,2020-10-15T13:17:52.844Z,201.240.146.25,Chrome_Windows 10.0,0
+5f8a4d846a4ea100046ad9f8,sergio,huang,20,sergiohangye19@gmail.com,sergio1920,74608801,sergio192,true,male,left,no,2020-10-17T01:48:52.901Z,181.67.168.94,Safari_OS X,0
+5f8b1d7f146ea70004046106,Fernando,Yep,18,yepfernando61@gmail.com,Tornado61,72759047,Cro61.com,true,male,right,no,2020-10-17T16:36:15.585Z,190.238.162.14,Chrome_Windows 10.0,0
+5f9058fea84e260004333c12,Sofia,Huaracha,23,sofiamilagros1910@gmail.com,sof1910,72968389,solyluna1,true,female,right,no,2020-10-21T15:51:26.063Z,179.6.209.184,Chrome_Windows 8.1,0
+5fa06c9299afb80004ca7121,Ricardo,Huang,21,ricardohsam@gmail.com,Ricardo23ulima,73095241,qwerty123,true,male,left,no,2020-11-02T20:31:14.753Z,179.6.194.151,Chrome_Windows 7,0
+5fa18463d5ee1c00044d973d,Sebastian,Philipps,27,sebastianphilipps93@gmail.com,robotin123,72650332,123456,false,male,right,no,2020-11-03T16:25:07.202Z,190.236.35.253,Edge_Windows 10.0,0
+5fa192a2d5ee1c00044d9adf,caterina,villanueva,21,caterinavillanueva2406@gmail.com,catvil24,72869790,caterina2,true,female,both,no,2020-11-03T17:25:54.121Z,179.6.220.124,Chrome_Windows 10.0,0
+5fa1a2402cced100042dce7c,Jaime Andres,Van Hemelrijck Maldonado,20,20181973@aloe.ulima.edu.pe,NombreDeUsuarioJ,73374846,NoSeQuexD,true,male,right,no,2020-11-03T18:32:32.172Z,179.6.219.221,Chrome_Windows 10.0,0
+5fa1e71161912d000400716f,Luis,Cepeda,21,20160331@aloe.ulima.edu.pe,Luchito,74039088,aronloli2,true,male,right,no,2020-11-03T23:26:09.783Z,190.237.162.93,Chrome_Windows 10.0,0
+5fa1eb4d61912d0004007486,Ken,Wakabayashi,21,20162653@aloe.ulima.edu.pe,kenwaka,74595049,parael20p,true,male,right,no,2020-11-03T23:44:13.240Z,190.40.199.124,Chrome_Windows 10.0,0
+5fa1f05f61912d00040076ab,Marlhene,Montoya,22,marlhene.montoya@gmail.com,Marlhene,72406193,FYBHE2016,true,female,right,yes,2020-11-04T00:05:51.727Z,190.236.206.246,Chrome_Windows 10.0,0
+5fa2220fa6b5c600048016a1,Joseph,Avalos,25,joseph.avalos0694@gmail.com,joseph_0694,75516473,joseph069,true,male,right,no,2020-11-04T03:37:51.022Z,181.66.169.254,Chrome_Windows 10.0,0
+5fa324c65ef4260004c1a487,Fabrizio,Valdivia,23,fvaldivia444@gmail.com,fvaldivia,70480252,fabriziov,true,male,right,no,2020-11-04T22:01:42.805Z,190.238.55.65,Edge_Windows 10.0,0
+5fa494e6e11dde0004c2b8ec,Miguel,Millones,19,20181201@aloe.ulima.edu.pe,Miguel_01,73689890,ulimaSIStemas,false,male,right,no,2020-11-06T00:12:22.938Z,190.234.75.36,Chrome_Windows 8.1,0
+5fa56f5d1f00eb0004f93749,Angelo,Medina,18,angelo_medinag@hotmail.com,Angelo,72077952,123456789,true,male,right,no,2020-11-06T15:44:29.073Z,190.233.166.200,Chrome_Windows 10.0,0
+5fa5d68eb423430004716256,Daniela,Chan,19,danielachanhuang@hotmail.com,DcAtlas57,76030299,0ffice712,true,female,right,no,2020-11-06T23:04:46.380Z,190.235.10.150,Chrome_Windows 7,0
+5fa6fe1f10f2650004605b73,José,Ortega,24,ortegajose2418@icloud.com,rakkumon,70269519,re70evolution96,false,male,right,no,2020-11-07T20:05:51.482Z,190.42.230.134,Chrome_Windows 10.0,0
+5fa881c4e749a90004c2ccc7,Almendra,Landa,20,a.landap@alum.up.edu.pe,2020king,74408436,almendraa,true,female,right,no,2020-11-08T23:39:48.936Z,209.45.91.104,Chrome_Windows 10.0,0
+5fa9d9dbdd5c300004ce6944,Eduardo ,Sotelo Ascona,18,Eduardo_5_33@hotmail.com,Eduardo Sotelo,70850408,OrigamiTo,true,male,right,no,2020-11-10T00:07:55.139Z,179.6.33.177,Opera_Windows 10.0,0
+5fad31c9e5df1f00040c0155,Jemima ,Romero Grados,23,20163537@aloe.ulima.edu.pe,jemima#180,72514796,megustanloscolorespastel,false,female,both,no,2020-11-12T12:59:53.199Z,190.238.29.50,Chrome_Windows 10.0,0
